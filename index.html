@@ -5,28 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CineRio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <ul>
-      <li>
-        <a href="filmes.html">Filmes em cartaz</a>
-      </li>
-      <li>
-        <a href="#contato">Contato</a>
-      </li>
-    </ul>
+    <div class="header">
+      <img src="/img/CineRio.svg" alt="logo">
+      <nav aria-label="primaria">
+        <div class="menu">
+          <a href="filmes.html">Filmes em cartaz</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </div>
   </header>
   <main>
-    <img width="50%" src="cinema.jpg" alt="cinema">
-    <h1>CineRio</h1>
-    <h2>O melhor cinema da cidade maravilhosa.</h2>
-    <p>Explore o fascinante universo do cinema conosco! CineRio é o seu destino online definitivo para tudo relacionado ao mundo das telonas. Nossa plataforma é um paraíso para cinéfilos, onde você encontrará informações detalhadas sobre os filmes mais recentes, clássicos atemporais e tudo o que há de melhor na sétima arte.</p>
-    <h4>Acompanhe os últimos lançamentos <a href="filmes.html">aqui</a>.</h4>
+    <div class="conteudo">
+      <img src="/img/cinema.jpg" alt="cinema">
+      <h2>O melhor cinema da cidade maravilhosa.</h2>
+    </div>
+    <div class="texto">
+      <p>Explore o fascinante universo do cinema conosco! CineRio é o seu destino online definitivo para tudo relacionado ao mundo das telonas. Nossa plataforma é um paraíso para cinéfilos, onde você encontrará informações detalhadas sobre os filmes mais recentes, clássicos atemporais e tudo o que há de melhor na sétima arte.</p>
+      <h4>Acompanhe os últimos lançamentos <a href="filmes.html">aqui</a>.</h4>
+    </div>
   </main>
-  <hr>
   <footer>
+    <div class="adress">
+      <img src="img/CineRiobranco.svg" alt="logobr">
+      <ul>
+        <li>+55 21 98687-4569</li>
+        <li>cinerio@gmail.com</li>
+        <li>Rua Lima Barreto, 20 - Ipanema</li>
+        <li>Rio de Janeiro - RJ</li>
+      </ul>
+    </div>
     <div id="contato">
       <h3>Entre em contato</h3>
       <form>
@@ -35,11 +48,11 @@
         <label for="email">Email:</label><br>
         <input type="text" id="email"><br>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea><br>
+        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
         <input type="submit">
       </form>
     </div>
-    <p>© 2023 CineRio. Todos os Direitos Reservados.</p>
+    <p class="final">© 2023 CineRio. Todos os Direitos Reservados.</p>
   </footer>
 </body>
 
