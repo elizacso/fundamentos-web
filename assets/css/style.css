@@ -5,8 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Página index*/
-
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -45,8 +43,7 @@ main img {
 }
 
 .texto p,
-h3,
-h4 {
+h3 {
   padding: 10px 20px;
 }
 
@@ -72,9 +69,7 @@ ul {
   list-style: none;
 }
 
-/*Página filmes em cartaz*/
-
-.cartaz {
+#cartaz {
   text-align: center;
   padding: 20px;
 }
@@ -87,4 +82,25 @@ ul {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.contato {
+  display: grid;
+  place-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #545454;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 6px 12px;
 }

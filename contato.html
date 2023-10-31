@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineRio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="inicio">
+    <a href="index.html"><img src="assets/img/CineRio.svg" alt=""></a>
+  </header>
+  <hr>
+  <main>
+    <div class="contato">
+      <img src="assets/img/pipoca-no-cinema-com-almofada-no-chao.jpg" alt="foto de cinema">
+      <div class="formulario">
+        <h3>Entre em contato</h3>
+        <form>
+          <label for="nome">Nome:</label><br>
+          <input type="text" id="nome" onkeyup="validarNome()">
+          <div id="txtNome"></div>
+          <br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" onkeyup="validarEmail()"><br>
+          <div id="txtEmail"></div>
+          <br>
+          <label for="assunto">Assunto:</label><br>
+          <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validarAssunto()"></textarea><br>
+          <div id="txtAssunto"></div><br>
+          <button onclick="enviar()">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    © 2023 CineRio. Todos os Direitos Reservados.
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
